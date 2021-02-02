@@ -8,6 +8,7 @@ html {
 }
 body {
     align-items: center;
+    background-color: steelblue;
     display: flex;
     font-family: 'Roboto', 'sans-serif';
     flex-direction: column;
@@ -15,4 +16,67 @@ body {
     height: 100vh;
     margin: 0;
     overflow: hidden;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0.5rem;
+    color: #fff;
+    padding: 2rem 4rem;
+}
+
+.container h1  {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.container a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+.form-control {
+    margin: 2rem 0 4rem;
+    position: relative;
+    width: 30rem;
+}
+
+.btn {
+    background: lightblue;
+    border: 0;
+    border-radius: 0%;
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 1.6rem;
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.text {
+    margin-top: 3rem;
+}
+
+.form-control input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 0.2px #fff solid;
+    color: #fff;
+    display: block;
+    font-size: 1.8rem;
+    padding: 1.5rem 0;
+    width: 100%;
+}
+
+.form-control input:focus,
+.form-control input:valid {
+    outline: 0;
 }
