@@ -3,7 +3,7 @@
 Proyecto 8 del reto 50 proyectos en 50 días.
 
 'Animación Wave' tiene ese nombre por la animación creada con CSS y JS que hacen
-que los elementos del 'place-holder' del formulario al ser clickeados.
+los elementos del 'place-holder' del formulario al ser clickeados.
 
 
 ## Demo 
